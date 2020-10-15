@@ -23,7 +23,7 @@ device = torch.device("cuda" if USE_CUDA else "cpu")
 
 MAX_LENGTH = 10  # Maximum sentence length to consider
 
-corpus_name = "cornell movie-dialogs corpus"
+corpus_name = "cornell_movie_dialogs_corpus"
 corpus = os.path.join("data", corpus_name)
 
 # Splits each line of the file into a dictionary of fields
